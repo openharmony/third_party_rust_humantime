@@ -24,4 +24,7 @@ ohos_cargo_crate("lib") {
     cargo_pkg_authors = "Paul Colomiets <paul@colomiets.name>"
     cargo_pkg_name = "humantime"
     cargo_pkg_description = "A parser and formatter for std::time::{Duration, SystemTime}"
+    module_output_extension = ".rlib"
+    part_name = "rust_humantime"
+    subsystem_name = "thirdparty"
 }
